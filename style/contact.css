@@ -1,0 +1,215 @@
+body{
+  background-color: black;
+}
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+.contact-section {
+  margin: 10px 30px 100px 30px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 50px 50px 700px 50px;
+  box-shadow: 5px 5px 20px white;
+}
+.contact{
+  padding:  5px 10px 5px 10px ;
+  width: 50%;
+  float: left;
+}
+.form{
+  position: relative;
+  z-index: 1;
+  max-width: 360px;
+  padding: 50px 0px 45px 0px ;
+}
+.contact-form input {
+  padding: 10px;
+  width: 90%;
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 0 0 10px;
+}
+.contact-form textarea{
+  padding: 10px;
+  width: 90%;
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 0 0 10px;
+}
+.ourcontact{
+  padding: 5px 5px 5px 10px;
+  float:  left;
+}
+p{
+  width: 80%;
+  color: white;
+  font-family: Roboto sans-serif;
+  font-size: 130%;
+}
+
+/* CSS for All */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+h2{
+    color: #0d6bb8;
+    font-size: 1.6rem;
+    margin-bottom: 2%;
+    font-family: "cosmic sans-serif"
+}
+
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+/* CSSS for navbar section */
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.footer p {
+    text-align: center;
+}
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .contact-section {
+        padding: 10px 10px 900px 10px;
+    }
+    .contact{
+        width: 100%;
+    }
+    .logo{
+        width: 30%;
+        float: none;
+        margin: 1% auto;
+    }
+    .feedback{
+        font-size: 120%;
+
+    }
+    .text{
+        font-size: 300%;
+    }
+    .menu ul{
+        text-align: center;
+    }
+    .h2{
+        width: 100%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+    h2{
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    p{
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
