@@ -1,2 +1,3 @@
 # Digital-Diner
-A responsive restaurant website
+A responsive restaurant website build using html and css
+
